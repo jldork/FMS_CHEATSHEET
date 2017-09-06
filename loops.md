@@ -44,7 +44,7 @@ number^2: 9
 ```
 
 You can also build new lists using a for loop. This is called **list comprehension**
-```
+```python
 my_list = [1,2,3]
 squared_list = [number*number for number in my_list] # squared_list = [1,4,9]
 ```
