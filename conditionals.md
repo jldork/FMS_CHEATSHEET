@@ -13,13 +13,13 @@ i_am_older_than_30 = age > 30
 print(i_am_older_than_30) # prints False
 ```
 You can even combine booleans using ```and``` or ```or```
-```
+```python
 print(is_the_world_sane and i_am_older_than_30) # True and False should return False!
 ```
 
 ## If statements
 If statements let you define sections of code to run based on certain conditions
-```
+```python
 if not is_the_world_sane:
     print("1 + 1 does NOT equal 2! Leave!!")
 elif i_am_older_than_30: # run only if the first part is false and this is true
@@ -28,7 +28,7 @@ else: # else does not require a condition
     print("I can enjoy my youth")
 ```
 They can be more complicated if you combine booleans
-```
+```python
 if not i_am_older_than_30 and is_the_world_sane: # True and True evalutes to True
     print("I can enjoy my youth")
 ```
